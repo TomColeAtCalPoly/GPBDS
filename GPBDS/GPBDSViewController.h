@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GPBDSViewController : UIViewController
+@interface GPBDSViewController : UITableViewController
+
+@property (strong, nonatomic) NSArray *searchResults;
 
 @end

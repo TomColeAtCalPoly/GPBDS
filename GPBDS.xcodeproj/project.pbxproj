@@ -14,13 +14,15 @@
 		143004C218AC21ED00DF41A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004C118AC21ED00DF41A8 /* main.m */; };
 		143004C618AC21ED00DF41A8 /* GPBDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004C518AC21ED00DF41A8 /* GPBDSAppDelegate.m */; };
 		143004C918AC21ED00DF41A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143004C718AC21ED00DF41A8 /* Main.storyboard */; };
-		143004CC18AC21ED00DF41A8 /* GPBDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004CB18AC21ED00DF41A8 /* GPBDSViewController.m */; };
 		143004CE18AC21ED00DF41A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143004CD18AC21ED00DF41A8 /* Images.xcassets */; };
 		143004D518AC21ED00DF41A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143004D418AC21ED00DF41A8 /* XCTest.framework */; };
 		143004D618AC21ED00DF41A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143004B518AC21ED00DF41A8 /* Foundation.framework */; };
 		143004D718AC21ED00DF41A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143004B918AC21ED00DF41A8 /* UIKit.framework */; };
 		143004DF18AC21ED00DF41A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 143004DD18AC21ED00DF41A8 /* InfoPlist.strings */; };
 		143004E118AC21ED00DF41A8 /* GPBDSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004E018AC21ED00DF41A8 /* GPBDSTests.m */; };
+		143004EC18AC228300DF41A8 /* GPBDSDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004EB18AC228300DF41A8 /* GPBDSDataService.m */; };
+		143004EF18AC242700DF41A8 /* GPBDSDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004EE18AC242700DF41A8 /* GPBDSDataRecord.m */; };
+		143004F618AC2A5200DF41A8 /* GPBDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143004F518AC2A5200DF41A8 /* GPBDSViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		143004C418AC21ED00DF41A8 /* GPBDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBDSAppDelegate.h; sourceTree = "<group>"; };
 		143004C518AC21ED00DF41A8 /* GPBDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPBDSAppDelegate.m; sourceTree = "<group>"; };
 		143004C818AC21ED00DF41A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		143004CA18AC21ED00DF41A8 /* GPBDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBDSViewController.h; sourceTree = "<group>"; };
-		143004CB18AC21ED00DF41A8 /* GPBDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPBDSViewController.m; sourceTree = "<group>"; };
 		143004CD18AC21ED00DF41A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		143004D318AC21ED00DF41A8 /* GPBDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPBDSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		143004D418AC21ED00DF41A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		143004DC18AC21ED00DF41A8 /* GPBDSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPBDSTests-Info.plist"; sourceTree = "<group>"; };
 		143004DE18AC21ED00DF41A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		143004E018AC21ED00DF41A8 /* GPBDSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPBDSTests.m; sourceTree = "<group>"; };
+		143004EA18AC228300DF41A8 /* GPBDSDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDSDataService.h; sourceTree = "<group>"; };
+		143004EB18AC228300DF41A8 /* GPBDSDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBDSDataService.m; sourceTree = "<group>"; };
+		143004ED18AC242700DF41A8 /* GPBDSDataRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDSDataRecord.h; sourceTree = "<group>"; };
+		143004EE18AC242700DF41A8 /* GPBDSDataRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBDSDataRecord.m; sourceTree = "<group>"; };
+		143004F418AC2A5200DF41A8 /* GPBDSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDSViewController.h; sourceTree = "<group>"; };
+		143004F518AC2A5200DF41A8 /* GPBDSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBDSViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +118,14 @@
 		143004BB18AC21ED00DF41A8 /* GPBDS */ = {
 			isa = PBXGroup;
 			children = (
+				143004F718AC2A6000DF41A8 /* DataService */,
 				143004C418AC21ED00DF41A8 /* GPBDSAppDelegate.h */,
 				143004C518AC21ED00DF41A8 /* GPBDSAppDelegate.m */,
 				143004C718AC21ED00DF41A8 /* Main.storyboard */,
-				143004CA18AC21ED00DF41A8 /* GPBDSViewController.h */,
-				143004CB18AC21ED00DF41A8 /* GPBDSViewController.m */,
 				143004CD18AC21ED00DF41A8 /* Images.xcassets */,
 				143004BC18AC21ED00DF41A8 /* Supporting Files */,
+				143004F418AC2A5200DF41A8 /* GPBDSViewController.h */,
+				143004F518AC2A5200DF41A8 /* GPBDSViewController.m */,
 			);
 			path = GPBDS;
 			sourceTree = "<group>";
@@ -150,6 +157,17 @@
 				143004DD18AC21ED00DF41A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		143004F718AC2A6000DF41A8 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				143004EA18AC228300DF41A8 /* GPBDSDataService.h */,
+				143004EB18AC228300DF41A8 /* GPBDSDataService.m */,
+				143004ED18AC242700DF41A8 /* GPBDSDataRecord.h */,
+				143004EE18AC242700DF41A8 /* GPBDSDataRecord.m */,
+			);
+			name = DataService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143004EC18AC228300DF41A8 /* GPBDSDataService.m in Sources */,
 				143004C218AC21ED00DF41A8 /* main.m in Sources */,
 				143004C618AC21ED00DF41A8 /* GPBDSAppDelegate.m in Sources */,
-				143004CC18AC21ED00DF41A8 /* GPBDSViewController.m in Sources */,
+				143004EF18AC242700DF41A8 /* GPBDSDataRecord.m in Sources */,
+				143004F618AC2A5200DF41A8 /* GPBDSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
