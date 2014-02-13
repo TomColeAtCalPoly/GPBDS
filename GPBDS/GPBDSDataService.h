@@ -10,7 +10,7 @@
 
 @interface GPBDSDataService : NSObject
 
-- (NSArray*)searchByKeywords:(NSString *) keywords;
+- (NSMutableArray*)searchByKeywords:(NSString *) keywords;
 - (NSString*)lookUpDetails:(NSString *) recordId recordType:(NSString *) recordType;
 
 @end

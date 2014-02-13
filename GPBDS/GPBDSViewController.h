@@ -10,6 +10,6 @@
 
 @interface GPBDSViewController : UITableViewController
 
-@property (strong, nonatomic) NSArray *searchResults;
+@property (strong, nonatomic) NSMutableArray *searchResults;
 
 @end
